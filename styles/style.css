@@ -1,0 +1,13 @@
+@import "./reset.css";
+@import "./home.css";
+
+:root {
+  --cor-primaria: #e8dfcf;
+  --cor-secundaria: #ec9992;
+  --cor-texto1: black;
+  --cor-texto2: white;
+}
+
+body {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
