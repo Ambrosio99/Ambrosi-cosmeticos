@@ -14,16 +14,19 @@
 </head>
 
 <body>
-  <header>
+  <header id="header">
     <nav class="container-content header-nav">
-      <ul class="nav-menu">
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="#">Produtos</a></li>
-        <li><a href="#">Ofertas</a></li>
-        <li><a href="#">Contato</a></li>
+      <ul class="nav-menu" data-menu="scrollSuave">
+        <li><a href="#header">Inicio</a></li>
+        <li><a href="#produtos">Produtos</a></li>
+        <li><a href="#produtos">Ofertas</a></li>
+        <li><a href="#footer">Contato</a></li>
       </ul>
       <a href="/index.html"><img src="images/ambrosi-logo.svg" alt="logotipo ambrosi cosméticos"></a>
       <ul class="nav-icons">
+        <li class="p-login">
+          <p>Faça <a data-modal="abrir">login</a></p>
+        </li>
         <li><a href="#"><img src="./images/icon-profile.svg" alt=""></a></li>
         <li><a href="#"><img src="./images/icon-bag.svg" alt=""></a></li>
         <li><a href="#"><img src="./images/icon-heart.svg" alt=""></a></li>
@@ -34,7 +37,7 @@
 
   <main>
     <div class="banner-bg">
-      <div class="banner container-content">
+      <div class="banner container-content" data-anima="scroll">
         <div class="banner-intro">
           <h1><strong>Descubra</strong> os segredos da <strong>beleza</strong></h1>
           <p>Mais do que cosméticos, um momento de autocuidado e amor-próprio.</p>
@@ -46,7 +49,7 @@
       </div>
     </div>
 
-    <section class="categorias container-content">
+    <section class="categorias container-content" data-anima="scroll">
       <ul class="categorias-lista">
         <li>
           <img src="./images/categoria-perfume.jpg" alt="">
@@ -67,7 +70,7 @@
       </ul>
     </section>
 
-    <section class="promocoes container-content">
+    <section class="promocoes container-content" data-anima="scroll">
       <div>
         <img src="./images/Banner-lancamentos.jpg" alt="">
       </div>
@@ -77,7 +80,7 @@
       </div>
     </section>
 
-    <section class="produtos-principais container-content">
+    <section class="produtos-principais container-content" data-anima="scroll" id="produtos">
       <h2>Mais vendidos</h2>
       <ul class="lista-produtos">
         <li>
@@ -137,7 +140,7 @@
       <a href="#" class="produtos-mais">Veja mais produtos!</a>
     </section>
 
-    <div class="banner-divulgacao container-content">
+    <div class="banner-divulgacao container-content" data-anima="scroll">
       <a href=""><img src="./images/banner-divulgacao.jpg" alt=""></a>
     </div>
 
@@ -150,35 +153,51 @@
   </main>
 
 
-  <footer class="footer-bg">
+  <footer class="footer-bg" id="footer">
     <div class="container-content footer-div">
       <ul class="adress">
-        <img src="images/icons/local.svg" alt="">
+        <img src="images/local.svg" alt="">
         <li>Rua ubaldino correia, 222 - Boa vista</li>
-        <img src="images/icons/telephone.svg" alt="">
+        <img src="images/telephone.svg" alt="">
         <li>+55 (41) 9 9191-9191</li>
-        <img src="images/icons/email.svg" alt="">
+        <img src="images/email.svg" alt="">
         <li>ambrosi@gmail.com</li>
       </ul>
-      <nav class="footer-menu">
-        <a href="index.html">Inicio</a>
-        <a href="">Produtos</a>
-        <a href="">Ofertas</a>
-        <a href="">Contato</a>
+      <nav class="footer-menu" data-menu="scrollSuave">
+        <a href="#header">Inicio</a>
+        <a href="#produtos">Produtos</a>
+        <a href="#produtos">Ofertas</a>
+        <a href="#footer">Contato</a>
       </nav>
       <ul class="service-time">
         <img src="images/ambrosi-logo-white.svg" alt="Logotipo Ambrosi">
         <li>Seg a Sex das 08:00 às 18:00</li>
         <li>Sábados das 08:00 às 13:00</li>
         <ul class="social">
-          <li><a href=""><img src="images/icon-instagram.svg" alt=""></a></li>
-          <li><a href=""><img src="images/icon-facebook.svg" alt=""></a></li>
-          <li><a href=""><img src="images/icon-twitter.svg" alt=""></a></li>
+          <li><a href="#"><img src="images/icon-instagram.svg" alt=""></a></li>
+          <li><a href="#"><img src="images/icon-facebook.svg" alt=""></a></li>
+          <li><a href="#"><img src="images/icon-twitter.svg" alt=""></a></li>
         </ul>
       </ul>
     </div>
   </footer>
   <p class="creditos" style="text-align: center; padding: 0.8rem; font-size: 0.75rem; font-weight: 500;">Desenvolvido por Ambrosio99.</p>
+
+  <section class="modal-container" data-modal="container">
+    <div class="modal">
+      <button data-modal="fechar" class="fechar">X</button>
+      <form action="">
+        <label for="email">Email</label>
+        <input type="text" for="email" id="email">
+        <label for="senha">Senha</label>
+        <input type="password" for="senha" id="senha">
+        <button type="submit">Entrar</button>
+      </form>
+      <a href="#" class="link-senha">Esqueci minha senha</a>
+    </div>
+  </section>
 </body>
+
+<script type="module" src="./script.js"></script>
 
 </html>

@@ -30,6 +30,15 @@
     border-bottom: 2px solid rgb(0, 0, 0);
   }
 }
+.p-login {
+  place-self: end start;
+  font-size: 0.75rem;
+  & a {
+    text-decoration: underline;
+    cursor: pointer;
+    color: var(--cor-secundaria);
+  }
+}
 
 .nav-icons {
   place-self: center end;
@@ -360,6 +369,9 @@
   .nav-icons {
     place-self: center;
     padding-top: 1.2rem;
+  }
+  .p-login {
+    display: none;
   }
   .banner-intro {
     & h1 {

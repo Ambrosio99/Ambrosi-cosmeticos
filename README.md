@@ -9,13 +9,14 @@ link para visualização do projeto [Aqui](https://ambrosio99.github.io/Ambrosi-
 
 ## Requerimentos
 
-Desenvolver um site responsivo com HTML e CSS para uma empresa do ramo de cosméticos:
+Desenvolver um site responsivo com HTML, CSS e Javascript para uma empresa do ramo de cosméticos:
 
 1. Estrutura do Site: Crie uma estrutura de arquivos e defina a estrutura HTML básica
 2. Cabeçalho e Rodapé: Desenvolva um cabeçalho e rodapé atraentes, aplicando estilos CSS.
 3. Variáveis CSS: Utilize variáveis CSS para melhorar a manutenção do design.
 4. Responsividade: Garanta que o site seja responsivo e se adapte a diferentes tamanhos de tela.
-5. Publicação: Publique o projeto em um servidor ou plataforma de hospedagem.
+5. Interatividade Javascript: Utilize JavaScript para manipular o DOM e adicionar comportamentos interativos.
+6. Publicação: Publique o projeto em um servidor ou plataforma de hospedagem.
 
 ## Visual final do projeto
 
