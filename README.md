@@ -1,7 +1,7 @@
 # Ambrosi Cosméticos - Projeto individual (Alura & Programa Desenvolve)
 
 Projeto individual para desenvolvimento de um site para uma empresa do ramo de cosméticos, com foco na criação de um layout flexível que se adapte a dispositivos móveis e desktop.
-link para visualização do projeto [Aqui](https://ambrosio99.github.io/Ambrosi-cosmeticos/)
+link para visualização do projeto [Aqui](https://ambrosi-cosmeticos.vercel.app/)
 
 ## Desenvolvedor
 
